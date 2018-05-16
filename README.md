@@ -14,19 +14,18 @@ brew install node
 2. Install Electron
 
 ```
-sh install-electron.sh
+$ [sudo] sh install-electron.sh
 ```
 
 3. Install Demo Dependency
 
 ```
-sh install-demo.sh
+$ [sudo ]sh install-demo.sh
 ```
 
 4. Run Demo
 
 ```
-cd demo
-electron .
+electron demo
 ```
 
