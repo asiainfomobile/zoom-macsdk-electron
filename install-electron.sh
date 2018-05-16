@@ -2,7 +2,7 @@
 
 sudo npm install -g electron --unsafe-perm=true
 
-cd /usr/local/lib/node_modules/electron
+cd $(npm config get prefix)/lib/node_modules/electron
 
 npm install nodobjc
 
