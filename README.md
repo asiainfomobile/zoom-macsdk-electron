@@ -20,7 +20,7 @@ $ [sudo] sh install-electron.sh
 3. Install Demo Dependency
 
 ```
-$ [sudo ]sh install-demo.sh
+$ [sudo] sh install-demo.sh
 ```
 
 4. Run Demo

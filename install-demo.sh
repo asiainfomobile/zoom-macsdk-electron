@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
-path_in_zoom = "/usr/local/lib/node_modules/electron"
-prefix = $(npm config get prefix)
+path_in_zoom="/usr/local/lib/node_modules/electron"
+prefix=$(npm config get prefix)
 if [ -d $path_in_zoom ]
 then
   echo ""
