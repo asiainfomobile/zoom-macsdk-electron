@@ -26,6 +26,7 @@ $ [sudo] sh install-demo.sh
 4. Run Demo
 
 ```
-electron demo
+cd demo
+electron .
 ```
 
