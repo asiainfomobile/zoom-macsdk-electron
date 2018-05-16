@@ -678,7 +678,8 @@ function uiacitoncb(type, msgid, hwnd){
 
 app.on('ready', function () {
   var opts = {
-    webdomain:'https://dev.zoom.us',
+    // webdomain:'https://dev.zoom.us',
+    webdomain:'https://www.zoomus.cn', // for china
     langid:ZOOMSDKMOD.ZoomSDK_LANGUAGE_ID.LANGUAGE_English,
   }
   var ret = zoomsdk.InitSDK(opts);
